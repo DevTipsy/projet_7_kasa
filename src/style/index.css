@@ -1,0 +1,381 @@
+/********/
+/*Header*/
+/********/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px 50px 100px;
+}
+    nav {
+        display: flex;
+        width: 309px;
+        justify-content: center;
+    }
+    
+    a {
+        display: flex;
+        color: #FF6060;
+        font-size: 24px;
+        margin: 15% 5% 5% 5%;
+    }
+    .header {
+        justify-content: space-between;
+        display: flex;
+    }
+    
+   .header img {
+        display: flex;
+        width: 210px;
+        height: 68px;
+        margin: 3% 15px 15px 9%;
+    }
+
+/******/
+/*Main*/
+/******/
+/*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+body {
+      background-color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+
+/*Home*/
+.home {
+    max-width: 1920px;
+    margin: 0 100px 0 100px;
+  }
+
+/*LogementCard*/
+    .Logementcard {
+        width: 340px;
+        height: 340px;
+        border-radius: 10px;
+        margin: 20px;
+        display: flex;
+        align-items: flex-end;
+        background-size: cover;
+      }
+        h2 {
+          color: white;
+          margin-left: 20px;
+          font-weight: 500;
+          font-size: 18px;
+        }
+
+/*LogementList*/
+.Logementlist {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+    ul {
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+
+
+/*A Propos*/
+.about {
+  margin: 0 100px 50px 100px;
+}
+
+
+
+
+
+/*Logement Carrousel+Head+Body*/
+.Logement {
+    max-width: 1920px;
+    margin: 0 50px 50px 50px;
+}
+
+/*Carrousel*/
+.carousel {
+    position: relative;
+  }
+    .carousel__content {
+      overflow: hidden;
+      border-radius: 25px;
+      margin-bottom: 50px;
+        border-radius: 10px;
+        margin: 0;
+    }
+      .carousel__content--img {
+        display: flex;
+        width: 100%;
+        max-height: 500px;
+        transition: all 250ms linear;     
+          max-height: 270px;
+      }
+      .carousel__content--count {
+        position: absolute;
+        z-index: 1;
+        top: 88%;
+        left: 50%;
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+          display: none;
+      }
+    
+    .carousel__leftarrow {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 80px;
+      left: 24px;
+        height: 20px;
+        left: 10px;
+    }
+    .carousel__rightarrow {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 80px;
+      right: 24px;
+        height: 20px;
+        right: 10px;
+      }
+
+/*LogementHead*/
+.Logement__head {
+    display: flex;
+    justify-content: space-between;
+}
+.Logement__head--info h1 {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 48px;
+    margin: 10px;
+}
+.Logement__head--info h2 {
+    color: #FF6060;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.tag{
+    background: #FF6060;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    height: 25px;
+    padding: 0 15px 0 15px;
+    line-height: 25px;
+    display: inline-block;
+    margin: 5px;
+}
+/*Profile Name+Picture*/
+.Logement__head--host {
+    display: block;
+}
+.host {
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+.host p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 25px 5px 25px 10px;
+}
+.host img {
+    border-radius: 90%;
+    width: 64px;
+    height: 64px;
+    margin: 25px;
+}
+
+/*Ratings*/
+.star {
+    margin-top: 0px;
+    display: flex;
+  }
+  
+  .off {
+    fill: #e3e3e3;
+    margin: 3px;
+      width: 22px;
+      margin: 1px;
+  
+  }
+  .on {
+    fill: #FF6060;
+    margin: 3px;
+      width: 22px;
+      margin: 1px;
+    }
+
+/*Tags*/
+.tag {
+    background: #FF6060;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    height: 25px;
+    padding: 0 15px 0 15px;
+    line-height: 25px;
+    display: inline-block;
+    margin: 5px;
+  }
+
+/*Logement Description & Equipements*/
+.Logement__body {
+    display: flex;
+}
+
+
+/*Banner*/
+.banner {
+  width: 95%;
+  max-width: 1240px;
+  height: 223px;
+  margin: auto;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  }
+  
+    h1 {
+      color: white;
+      font-weight: 500;
+      font-size: 48px;
+      margin: 10px;
+    }
+
+/*Collapse*/
+.collapse {
+    margin: 30px 0px 0 -33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+    .collapse__title {
+      width: 100%;
+      max-width: 1000px;
+      background-color: #FF6060;
+      color: #ffffff;
+      font-size: 24px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 25px 0 25px;
+      border-radius: 10px;
+        font-size: 16px;
+        width: 90%;
+        height: 35px;
+        padding: 0 15px 0 15px;
+        font-size: 20px;
+        width: 90%;
+        height: 40px;
+        padding: 0 15px 0 15px;
+  
+    }
+    .collapse__content {
+      background-color: #f7f7f7;
+      width: 100%;
+      max-width: 1000px;
+      padding: 0 25px 0 25px;
+      font-weight: 400;
+      font-size: 24px;
+      color: #FF6060;
+      border-radius: 0 0 10px 10px;
+        font-size: 16px;
+        width: 90%;
+        padding: 0 15px 0 15px;
+        font-size: 20px;
+        width: 90%;
+        padding: 0 15px 0 15px;
+    }
+      ul {
+        list-style: none;
+      }
+
+/*Carrousel*/
+  .carousel__content--img > * {
+    width: 100%;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+  
+  .carouselNone {
+    display: none;
+  }
+
+/********/
+/*Footer*/
+/********/
+.footer {
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: auto;
+  }
+     .footer p{
+      font-size: 12px;
+      padding: 50px;
+     }
+/***********/
+/*ErrorPage*/
+/***********/
+.error {
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .error404 h1 {
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+  }
+    .errorDescription {
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 0%;
+        margin-bottom: 5%;
+        color: #FF6060;
+      }
+
+    .errorLink {
+        display: block;
+        font-size: 18px;
+        left: 40.14%;
+        right: 40.14%;
+        top: 81.93%;
+        bottom: 15.53%;
+        color: #FF6060;
+    }
