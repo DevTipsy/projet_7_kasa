@@ -14,7 +14,7 @@ function Collapse(props) {
     <div className="collapse">
       <div
         onClick={toggle}
-        className="collapse__title"
+        className="collapseTitle"
         data-testid="coll"
         style={{
           width: `${props.widthCollapse}`,
@@ -30,7 +30,7 @@ function Collapse(props) {
       </div>
       {open && (
         <div
-          className="collapse__content"
+          className="collapseContent"
           data-testid="collContent"
           style={{
             width: `${props.widthCollapseContent}`,

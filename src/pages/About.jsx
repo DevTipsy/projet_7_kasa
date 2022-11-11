@@ -1,5 +1,5 @@
 import '../style/index.css';
-import ImgAbout from '../assets/montain.png';
+import imgAbout from '../assets/montain.png';
 import Banner from '../components/Banner';
 import Collapse from '../components/Collapse.jsx';
 import useTitle from '../index.jsx';
@@ -7,10 +7,8 @@ import useTitle from '../index.jsx';
 function About() {
   useTitle('A propos');
   return (
-    <div className="about">
-      <div className="about__banner">
-        <Banner backgroundImg={ImgAbout} />
-      </div>
+    <div className="aboutBody">
+      <Banner backgroundImg={imgAbout} />
       <Collapse label="Fiabilité">
         <p>
           Les annonces postées sur Kasa garantissent une fiabilité totale. Les

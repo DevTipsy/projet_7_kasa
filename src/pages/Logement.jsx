@@ -55,7 +55,7 @@ function Logement() {
         </div>
       </div>
 
-      <div className="Logement__body">
+      <div className="logementBody">
         <Collapse
           label="Description"
           widthCollapse="82%"
