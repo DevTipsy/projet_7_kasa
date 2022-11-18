@@ -90,14 +90,15 @@ body {
   }
 
 .Logementlist {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 93%;
+  padding: 2% 2% 2% 5%;
   background: #F7F7F7;
   border-radius: 25px;
 }
 .logementLink {
-  width: 340px;
+  margin: auto;
 }
 
 ul {
