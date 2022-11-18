@@ -43,14 +43,14 @@ function Carousel(props) {
         src={leftArrow}
         alt="Flèche gauche carousel"
       />
-      <div className="carousel__content">
+      <div className="carouselContent">
         <div
-          className="carousel__content--img"
+          className="carouselContent--img"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {children}
         </div>
-        <p className={isOne ? 'carouselNone' : 'carousel__content--count'}>
+        <p className={isOne ? 'carouselNone' : 'carouselContentCount'}>
           {currentIndex + 1}/{picturesNumber + 1}
         </p>
       </div>

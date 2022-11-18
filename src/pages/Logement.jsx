@@ -58,15 +58,11 @@ function Logement() {
       <div className="logementBody">
         <Collapse
           label="Description"
-          widthCollapse="82%"
-          widthCollapseContent="82%"
         >
           <p>{selectedLogement.description}</p>
         </Collapse>
         <Collapse
           label="Équipements"
-          widthCollapse="82%"
-          widthCollapseContent="82%"
         >
           {equipments.map((equipment, index) => (
             <ul key={`equipment_${index}`}>

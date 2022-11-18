@@ -32,9 +32,6 @@ function Collapse(props) {
         <div
           className="collapseContent"
           data-testid="collContent"
-          style={{
-            width: `${props.widthCollapseContent}`,
-          }}
         >
           {props.children}
         </div>
