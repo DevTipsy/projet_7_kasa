@@ -263,7 +263,7 @@ a {
 /************/
 /*introImg*/
 .introImg {
-  width: 95%;
+  width: 96%;
   max-width: 1240px;
   height: 223px;
   margin: 2% auto 2% auto;
@@ -366,13 +366,13 @@ a {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 288px;
+  font-size: 520%;
+  margin: 3% auto 2% auto;
 }
 .errorDescription {      
   font-weight: 700;
   font-size: 28px;
   margin-top: 0%;
-  margin-bottom: 5%;
   color: #FF6060;
 }
 .errorLink {
@@ -383,4 +383,5 @@ a {
   top: 81.93%;
   bottom: 15.53%;
   color: #FF6060;
+  margin-top: 145px;
 }
