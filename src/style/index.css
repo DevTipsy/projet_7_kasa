@@ -22,7 +22,7 @@ header {
     nav.header__nav {
       display: flex;
       font-size: 24px;
-      margin: 2% 2% 2% 2%;
+      margin: 30px 3% 15px 30px;
     }
     .header {
         justify-content: space-between;
@@ -92,8 +92,8 @@ body {
 .Logementlist {
   display: flex;
   flex-wrap: wrap;
-  width: 93%;
-  padding: 2% 2% 2% 5%;
+  width: 90%;
+  padding: 2% 5% 2% 5%;
   background: #F7F7F7;
   border-radius: 25px;
 }
@@ -252,19 +252,12 @@ a {
     display: flex;
 }
 
-   .introImg h1 {
-      color: white;
-      font-weight: 500;
-      font-size: 48px;
-    }
-
 /************/
 /*Page About*/
 /************/
 /*introImg*/
 .introImg {
   width: 96%;
-  max-width: 1240px;
   height: 223px;
   margin: 2% auto 2% auto;
   border-radius: 25px;
@@ -274,6 +267,14 @@ a {
   background-size: cover;
   background-position: center;
   }
+
+  .introImg h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+    margin: 0px 25px 0px 25px;
+  }
+
 /*aboutBody*/
 .aboutBody {
   margin: 0 4% 4% 4%;
