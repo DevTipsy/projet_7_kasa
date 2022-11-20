@@ -325,6 +325,7 @@ a {
   }
   .collapse ul {
     list-style: none;
+    padding: 5px;
   }
 
 /*Carrousel*/
