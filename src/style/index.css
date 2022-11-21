@@ -250,6 +250,7 @@ a {
 /*Logement Description & Equipements*/
 .logementBody {
     display: flex;
+    margin: 5% -5%;
 }
 
 /************/
@@ -298,7 +299,7 @@ a {
     border-radius: 5px;
     height: 47px;
     padding: 0px 15px 0px 15px;
-    width: 85%;
+    width: 70%;
     margin: 25px 25px 0px 25px;
   }
   .logementBody .collapse .collapseTitle {
@@ -311,7 +312,7 @@ a {
     border-radius: 5px;
     height: 47px;
     padding: 0px 15px 0px 15px;
-    width: 92%;
+    width: 70%;
     margin: 2% 2% 0px 2%;
   }
   .collapseContent {
@@ -320,7 +321,7 @@ a {
     font-weight: 400;
     color: #FF6060;
     border-radius: 5px;
-    width: 92%;
+    width: 70%;
     padding: 0 15px 0 15px;
   }
   .collapse ul {
@@ -386,4 +387,122 @@ a {
   bottom: 15.53%;
   color: #FF6060;
   margin-top: 145px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  /*Header*/
+  .header {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 4% 4% 4%;
+  }
+  .header img {
+    display: flex;
+    width: 150px;
+    height: 45px;
+    margin: 5% 11% 0px 5%;
+    }
+    nav.header__nav {
+      display: flex;
+      font-size: 12px;
+      margin: 30px 0% 15px 0%;
+    }
+.header__nav a {
+  margin: 0;
+  padding: 5px;
+  color: #FF6060;
+}
+/*Logements Cards*/
+.introImg h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 26px;
+  margin: 0px 25px 0px 25px;
+}
+.logements {
+  width: 100%;
+  margin: 0px;
+}
+.Logementcard {
+  width: 285px;
+  height: 255px;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+}
+.Logementlist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0px;
+}
+ul {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.logementBody {
+  display: flex;
+  flex-direction: column;
+  margin: 5% -15%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
