@@ -451,7 +451,21 @@ ul {
   flex-direction: column;
   margin: 5% -15%;
   }
-
+/*Profile+Stars*/
+.Logement__head {
+  display: flex;
+  flex-direction: column;
+}
+.Logement__head--host {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.star {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
 
 
 
