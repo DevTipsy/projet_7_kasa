@@ -119,6 +119,16 @@ a {
 .carousel {
   position: relative;
 }
+.carouselContent--img > * {
+  width: 100%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.carouselNone {
+  display: none;
+}
+
   .carouselContent {
     overflow: hidden;
     border-radius: 10px;
@@ -329,16 +339,6 @@ a {
     padding: 5px;
   }
 
-/*Carrousel*/
-  .carouselContent--img > * {
-    width: 100%;
-    flex-shrink: 0;
-    flex-grow: 1;
-  }
-  
-  .carouselNone {
-    display: none;
-  }
 
 /********/
 /*Footer*/
