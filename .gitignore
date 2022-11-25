@@ -6,8 +6,6 @@
 /build
 .prettierrc
 /yarn.lock
-/package-lock.json
-/package.json
 
 # Node
 /node_modules
