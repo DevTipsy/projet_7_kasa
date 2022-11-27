@@ -15,7 +15,6 @@ function Collapse(props) {
       <div
         onClick={toggle}
         className="collapseTitle"
-        data-testid="coll"
         style={{
           width: `${props.widthCollapse}`,
           margin: `${props.marginCollapse}`,
@@ -31,7 +30,6 @@ function Collapse(props) {
       {open && (
         <div
           className="collapseContent"
-          data-testid="collContent"
         >
           {props.children}
         </div>

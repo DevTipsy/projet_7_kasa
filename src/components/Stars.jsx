@@ -16,7 +16,7 @@ function Stars(props) {
     ));
 
   return (
-    <div className="star" data-testid="etoile">
+    <div className="star" >
       <Rating rating={LogementRating} />
     </div>
   );

@@ -55,7 +55,6 @@ function Carousel(props) {
         </p>
       </div>
       <img
-        data-testid="arrowNext"
         onClick={next}
         className={isOne ? 'carouselNone' : 'carousel__rightarrow'}
         src={rightArrow}
