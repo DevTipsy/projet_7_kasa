@@ -389,6 +389,7 @@ a {
   margin-top: 145px;
 }
 
+/*Responsive Mobile*/
 @media only screen and (max-width: 600px) {
 
   /*Header*/
@@ -402,121 +403,68 @@ a {
     width: 150px;
     height: 45px;
     margin: 5% 11% 0px 5%;
-    }
-    nav.header__nav {
-      display: flex;
-      font-size: 12px;
-      margin: 30px 0% 15px 0%;
-    }
-.header__nav a {
-  margin: 0;
-  padding: 5px;
-  color: #FF6060;
-}
-/*Logements Cards*/
-.introImg h1 {
-  color: white;
-  font-weight: 500;
-  font-size: 26px;
-  margin: 0px 25px 0px 25px;
-}
-.logements {
-  width: 100%;
-  margin: 0px;
-}
-.Logementcard {
-  width: 285px;
-  height: 255px;
-  border-radius: 10px;
-  margin: 5px;
-  display: flex;
-  align-items: flex-end;
-  background-size: cover;
-}
-.Logementlist {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  background-color: white;
-  border-radius: 25px;
-  padding: 0px;
-}
-ul {
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-}
-.logementBody {
-  display: flex;
-  flex-direction: column;
-  margin: 5% -15%;
   }
-/*Profile+Stars*/
-.Logement__head {
-  display: flex;
-  flex-direction: column;
-}
-.Logement__head--host {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-}
-.star {
-  margin-top: 0px;
-  display: flex;
-  align-items: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  nav.header__nav {
+    display: flex;
+    font-size: 12px;
+    margin: 30px 0% 15px 0%;
+  }
+  .header__nav a {
+    margin: 0;
+    padding: 5px;
+    color: #FF6060;
+  }
+  /*Logements Cards*/
+  .introImg h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 26px;
+    margin: 0px 25px 0px 25px;
+  }
+  .logements {
+    width: 100%;
+    margin: 0px;
+  }
+  .Logementcard {
+    width: 285px;
+    height: 255px;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+  }
+  .Logementlist {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0px;
+  }
+  ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .logementBody {
+    display: flex;
+    flex-direction: column;
+    margin: 5% -15%;
+    }
+  /*Profile+Stars*/
+  .Logement__head {
+    display: flex;
+    flex-direction: column;
+  }
+  .Logement__head--host {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .star {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+  }
 }
