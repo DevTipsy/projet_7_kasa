@@ -34,32 +34,19 @@ function Carousel(props) {
   if (length === 1) {
     isOne = true;
   }
-
+  //On affiche le Carrousel
   return (
     <div className="carousel">
-      <img
-        onClick={prev}
-        className={isOne ? 'carouselNone' : 'carousel__leftarrow'}
-        src={leftArrow}
-        alt="Flèche gauche carousel"
-      />
-      <div className="carouselContent">
-        <div
-          className="carouselContent--img"
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-        >
-          {children}
+      <img onClick={prev} className={isOne ? 'carouselNone' : 'carousel__leftarrow'} src={leftArrow} alt="Flèche gauche carousel" />
+        <div className="carouselContent">
+          <div className="carouselContent--img" style={{ transform: `translateX(-${currentIndex * 100}%)` }} >
+            {children}
+          </div>
+          <p className={isOne ? 'carouselNone' : 'carouselContentCount'}>
+            {currentIndex + 1}/{picturesNumber + 1}
+          </p>
         </div>
-        <p className={isOne ? 'carouselNone' : 'carouselContentCount'}>
-          {currentIndex + 1}/{picturesNumber + 1}
-        </p>
-      </div>
-      <img
-        onClick={next}
-        className={isOne ? 'carouselNone' : 'carousel__rightarrow'}
-        src={rightArrow}
-        alt="Flèche droite carousel"
-      />
+      <img onClick={next} className={isOne ? 'carouselNone' : 'carousel__rightarrow'} src={rightArrow} alt="Flèche droite carousel" />
     </div>
   );
 }

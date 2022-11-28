@@ -5,6 +5,7 @@ import Collapse from '../components/Collapse.jsx';
 import useTitle from '../index.jsx';
 
 function About() {
+  //On créé le titre dans l'onglet et on insère les composants Banner & Collapse
   useTitle('A propos');
   return (
     <div className="aboutBody">
