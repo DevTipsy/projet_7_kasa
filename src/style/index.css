@@ -68,7 +68,7 @@ body {
 
 /*LogementCard*/
     .Logementcard {
-        width: 340px;
+        width: 88%;
         height: 340px;
         border-radius: 10px;
         margin: 20px;
@@ -85,20 +85,21 @@ body {
 
 /*LogementList*/
 .logements {
-  width: 96%;
-  margin: 0% 2% 0% 2%;
+  width: 98%;
+  margin: 1%;
   }
 
 .Logementlist {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
-  padding: 2% 5% 2% 5%;
+  width: 96%;
+  padding: 2% 2% 2% 2%;
   background: #F7F7F7;
   border-radius: 25px;
 }
 .logementLink {
-  margin: auto;
+  margin: 2%;
+  width: 29%;
 }
 
 ul {
@@ -421,12 +422,27 @@ a {
     font-size: 26px;
     margin: 0px 25px 0px 25px;
   }
+  .introImg {
+    width: 96%;
+    height: 150px;
+    margin: 2% auto 2% auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    }
   .logements {
     width: 100%;
     margin: 0px;
   }
+  .logementLink {
+    margin: 2%;
+    width: 100%;
+    }
   .Logementcard {
-    width: 285px;
+    width: 100%;
     height: 255px;
     border-radius: 10px;
     margin: 5px;
